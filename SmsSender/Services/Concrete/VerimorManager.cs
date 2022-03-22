@@ -5,7 +5,7 @@ using System.Configuration;
 
 namespace SmsSender.Services.Concrete
 {
-    internal class VerimorManager : ISmsService
+    public class VerimorManager : ISmsService
     {
         public string Sender(string phone, string message)
         {

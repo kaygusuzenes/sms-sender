@@ -5,7 +5,7 @@ using System.Configuration;
 
 namespace SmsSender.Services.Concrete
 {
-    internal class NetGsmManager : ISmsService
+    public class NetGsmManager : ISmsService
     {
         public string Sender(string phone, string message)
         {

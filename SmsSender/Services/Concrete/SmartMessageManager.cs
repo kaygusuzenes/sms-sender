@@ -6,7 +6,7 @@ using System.Configuration;
 
 namespace SmsSender.Services.Concrete
 {
-    internal class SmartMessageManager : ISmsService
+    public class SmartMessageManager : ISmsService
     {
         public string Sender(string phone, string message)
         {

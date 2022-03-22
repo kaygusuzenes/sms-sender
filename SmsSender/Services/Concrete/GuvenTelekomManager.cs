@@ -9,7 +9,7 @@ using SmsSender.Helpers;
 
 namespace SmsSender.Services.Concrete
 {
-    internal class GuvenTelekomManager : ISmsService
+    public class GuvenTelekomManager : ISmsService
     {
         public string Sender(string phone, string message)
         {

@@ -9,7 +9,7 @@ using SmsSender.Helpers;
 
 namespace SmsSender.Services.Concrete
 {
-    internal class JetMesajManager : ISmsService
+    public class JetMesajManager : ISmsService
     {
         public string Sender(string phone, string message)
         {

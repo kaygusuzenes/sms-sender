@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace SmsSender.Services.Concrete
 {
-    internal class RelatedDigitalManager : ISmsService
+    public class RelatedDigitalManager : ISmsService
     {
         public string Sender(string phone, string message)
         {

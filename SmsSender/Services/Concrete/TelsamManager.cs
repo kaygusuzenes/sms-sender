@@ -5,7 +5,7 @@ using System.Configuration;
 
 namespace SmsSender.Services.Concrete
 {
-    internal class TelsamManager : ISmsService
+    public class TelsamManager : ISmsService
     {
         public string Sender(string phone, string message)
         {
